@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A website for Anand."
+    />
+    <title>Anand's Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Work+Sans:wght@400;800&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Work+Sans:wght@400;800&display=swap"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </noscript>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#top">HOME</a></li>
+        <li><a href="#project">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="https://drive.google.com/file/d/1yyLG3N35EHAo6k_ry0073oRaa87qxT92/view" target="_blank">RESUME</a></li>
+      </ul>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Home -->
+    <section class="center">
+      <main>
+        <!-- img and info container -->
+        <div class="img-info-container">
+          <!-- profile picture -->
+          <div class="img-container">
+            <img
+              width="80"
+              height="80"
+              src="./asset/img/milo.png"
+              alt="pfp"
+            />
+          </div>
+
+          <!-- info / the large text and social media -->
+          <div class="info-container">
+            <!-- svg/social media container -->
+            <div class="social-container">
+              <!-- GITHUB -->
+              <!-- <a href="https://github.com/" target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="./asset/svg/github.svg"
+                  alt="github"
+              /></a> -->
+
+              <!-- LINKEDIN -->
+              <a
+                href="https://www.linkedin.com/in/anand-jagadale-780a8b181/"
+                target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="./asset/svg/linkedin.svg"
+                  alt="linkedin"
+              /></a>
+            </div>
+
+            <!-- name -->
+            <h1>Anand Jagdale</h1>
+            <hr />
+          </div>
+        </div>
+
+        <p class="user-bio">
+          I'm Anand Jagdale, A Mechanical Engineer with skills in Data Science and Computational Simulations, focused on delivering cutting-edge solutions for day to day engineering problems.
+        </p>
+
+        <div class="quote-container">
+          <p>
+            <i>
+              "Live to the point of tears" — <b>Albert Camus</b>
+            </i>
+          </p>
+        </div>
+      </main>
+    </section>
+    <!-- End of Home -->
+
+    <!-- Start of Project -->
+    <section class="center">
+      <div id="project">
+        <h2 onmouseover="this.style.color='lightblue'" onmouseleave="this.style.color='#cdced5'">PROJECTS</h2>
+        <!-- project container/ grid -->
+        <div class="project-container">
+          <!-- Repo -->
+          <div class="repository-container">
+            <div class="repository-head">
+              <a
+                href="https://drive.google.com/file/d/1OkZJZZcxfkDNNj0uPkJ69faq3EezDowh/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>Simulation of Right Coronary Artery</h3>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1OkZJZZcxfkDNNj0uPkJ69faq3EezDowh/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  width="16"
+                  height="16"
+                  src="./asset/svg/external-link.svg"
+                  alt="external-link"
+              /></a>
+            </div>
+
+            <p class="repository-description">
+              Used advanced simulation techniques - (CFD and FSI) to determine wall shear stress developing on right coronary
+              artery model, designed to replicate human biology.
+            </p>
+            <div class="repository-language-used-container">
+              <span class="language-used">ANSYS</span>
+            </div>
+          </div>
+          <!-- Repo End -->
+          <!-- Repo -->
+          <div class="repository-container">
+            <div class="repository-head">
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>Electromagnetic Braking System</h3>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  width="16"
+                  height="16"
+                  src="./asset/svg/external-link.svg"
+                  alt="external-link"
+              /></a>
+            </div>
+
+            <p class="repository-description">A braking system utilizing electromagnetic effects that incorporates a solenoid-based mechanism.</p>
+            <div class="repository-language-used-container">
+              <span class="language-used">CAD</span>
+              <span class="language-used"></span>
+            </div>
+          </div>
+          <!-- Repo End -->
+          <!-- Repo -->
+          <!-- <div class="repository-container">
+            <div class="repository-head">
+              <a
+                href="https://buneri.eu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>Buneri</h3>
+              </a>
+              <a
+                href="https://buneri.eu/
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  width="16"
+                  height="16"
+                  src="./asset/svg/external-link.svg"
+                  alt="external-link"
+              /></a>
+            </div>
+
+            <p class="repository-description">A clothing website designed on shopify</p>
+            <div class="repository-language-used-container">
+              <span class="language-used">HTML</span>
+              <span class="language-used">Javascript</span>
+              <span class="language-used">CSS</span>
+              <span class="language-used">Bootstrap</span>
+
+            </div>
+          </div> -->
+          <!-- Repo End -->
+          
+        </div>
+
+        <!-- To github repos -->
+        <div class="repository-container more-repo">
+          more at
+          <a
+            href="https://github.com/sa1typretzel?tab=repositories"
+            target="_blank"
+            >GITHUB <img src="./asset/svg/external-link.svg" alt=""
+          /></a>
+        </div>
+        <!-- To github repos End-->
+      </div>
+    </section>
+    <!-- End of Project -->
+
+<!-- Certifications -->
+<!-- <section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications-container">
+    <div class="certification-container">
+      <div class="certification-head">
+        <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" target="_blank" rel="noopener noreferrer">
+          <h3>CS50's Web Programming with Python and JavaScript</h3>
+        </a>
+        <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" target="_blank" rel="noopener noreferrer">
+          <img width="16" height="16" src="./asset/svg/external-link.svg" alt="external-link" />
+        </a>
+      </div>
+      <div class="certification-description">
+        <span class="certification-description2">HTML</span>
+        <span class="certification-description2">CSS</span>
+        <span class="certification-description2">Git</span>
+        <span class="certification-description2">Python</span>
+        <span class="certification-description2">Django</span>
+        <span class="certification-description2">SQL</span>
+        <span class="certification-description2">JavaScript</span>
+        <span class="certification-description2">UI</span>
+        <span class="certification-description2">CI/CD</span>
+      </div>
+    </div>
+
+    <div class="certification-container">
+      <div class="certification-head">
+        <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank" rel="noopener noreferrer">
+          <h3>CS50's Introduction to Computer Science </h3>
+        </a>
+        <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank" rel="noopener noreferrer">
+          <img width="16" height="16" src="./asset/svg/external-link.svg" alt="external-link" />
+        </a>
+      </div>
+      <p class="certification-description">A course on web development using Python and JavaScript.</p>
+    </div>
+
+    <div class="certification-container">
+      <div class="certification-head">
+        <a href="https://www.edx.org/course/cs50s-introduction-to-database-with-sql" target="_blank" rel="noopener noreferrer">
+          <h3>CS50's Introduction to Database with SQL</h3>
+        </a>
+        <a href="https://www.edx.org/course/cs50s-introduction-to-database-with-sql" target="_blank" rel="noopener noreferrer">
+          <img width="16" height="16" src="./asset/svg/external-link.svg" alt="external-link" />
+        </a>
+      </div>
+      <p class="certification-description">An introduction to databases and SQL.</p>
+    </div>
+  </div>
+</section> -->
+<!-- End of Certifications -->
+
+<!-- Start of Education -->
+<section id="education">
+  <h2>EDUCATION</h2>
+  <div class="education-container">
+    <h3>Savitribai Phule Pune University</h3>
+    <p>Bachelor of Engineering - Mechanical Engineering</p>
+    <p>Aug 2021 - May 2024</p>
+    <p>Grade: 9.10</p>
+    <ul>
+      <li>Honors in Data Science.</li>
+      <li>Relevant coursework in AI-ML and Computational Fluid Dynamics.</li>
+    </ul>
+  </div>
+
+  <div class="education-container">
+    <h3>Government Polytechnic College</h3>
+    <p>Polytechnic Diploma, Mechanical Engineering</p>
+    <p>2018 - 2021</p>
+    <p>Grade: 90.21%</p>
+    <ul>
+      <li>Basic knowledge of Mechanical Engineering including subjects like Strength of Material, Theory of Machines, Engineering materials, Design of Machine Elements and Refrigeration-Air conditioning.</li>
+    </ul>
+  </div>
+</div>
+</section>
+<!-- End of Education -->
+
+<section id="experience">
+    <h2>EXPERIENCE</h2>
+    <div class="experience-container">
+      <h3>Co-Founder</h3>
+      <h4>Social Yetii · Self-employed</h4>
+      <p><strong>Nov 2022 - Present · 1 yr 10 mos</strong></p>
+      <p>Pune, Maharashtra, India · On-site</p>
+      <ul>
+        <li>Helping Start-ups and local Businesses to kick-start their Digital Journey.</li>
+        <li>We offer Freelancing Services like SEO & SEM, Graphic Designing, Digital Advertisement.</li>
+        <li>Skills: Entrepreneurship · B2C Business Handling · Adobe Photoshop · Project Management</li>
+      </ul>
+    </div>
+    <div class="experience-container">
+      <h3>Industrial Trainee</h3>
+      <h4>Kia India · Apprenticeship</h4>
+      <p><strong>Jun 2020 - Jul 2020 · 2 mos</strong></p>
+      <p>Mumbai, Maharashtra, India · Remote</p>
+      <ul>
+        <li>Gained valuable knowledge of Kia motors (KIA Seltos Car Model).</li>
+        <li>Gained deep insights about Automobile Systems, used in modern-day Automobiles.</li>
+      </ul>
+    </div>
+</section>
+
+    <!-- About -->
+    <div class="center">
+      <div id="about">
+        <!-- Image  -->
+        <div class="about-img-container">
+          <img
+            width="80"
+            height="80"
+            src="./asset/img/peter.png"
+            alt="pfp"
+          />
+        </div>
+        <!-- Name -->
+        <h2 class="gradient">Anand Jagdale</h2>
+        <!-- social media container -->
+        <ul class="about-social-container">
+          <li>
+            <img src="./asset/svg/github.svg" alt="Github" />
+            <a href="https://github.com/">Github</a>
+          </li>
+
+          <li>
+            <img src="./asset/svg/mail.svg" alt="Mail" />
+            <a href="mailto:mail@anand1141n@gmail.com">Mail</a>
+          </li>
+
+          <li>
+            <img src="./asset/svg/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/anand-jagadale-780a8b181">LinkedIn</a>
+          </li>
+        </ul>
+        <!-- long bio -->
+        <p>
+          I'm Anand Jagdale, A Mechanical Engineer with skills in Data Science and Fluid Simulations, focused on delivering cutting-edge solutions for day to day engineering problems. <br> <br>
+          Passionate about my work and devoted towards sustainable development of society. Keen on pursuing a career in Robotics and Biomedical engineering.<br>
+        </p>
+        <!-- Skills / Tools -->
+        <h3>Skills / Tools</h3>
+        <ul class="skill">
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>ANSYS</li>
+          <li>Solid Works</li>
+          <li>Fusion360</li>
+          <li>Hadoop</li>
+          <li>Jupyter Notebook</li>
+          <li>MATLAB</li>
+          <li>Simvascular</li>
+          <li>Git</li>
+          <li>Computational Eng.</li>
+          <li>Datascience</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <!-- <p>
+        © <script>document.write(new Date().getFullYear());</script> Built by <a href="https://github.com/Sa1tyPretzel">Sa1tyPretzel</a>
+      </p> -->
+    </footer>
+
+    <script type="module" src="./script/event-effect.js"></script>
+  </body>
+</html>
